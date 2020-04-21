@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
+
+a:hover {
+  color: red;
+  background-color: blue;
+}
+
+.selec {
+  background-color: red;
+  width: 500px;
+  height: 250px;
+}
+
+.selec:hover {
+  background-color: green;
+  margin-left: 300px;
+}
+
+a:visited {
+  color: pink;
+}
+a:active {
+  font-size: 200%;
+}
+
+.textname:hover {
+  background: red;
+  color: white;
+}
+
+.textname:focus {
+  background: black;
+  color: white;
+}
